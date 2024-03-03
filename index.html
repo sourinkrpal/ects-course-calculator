@@ -9,12 +9,22 @@
 <body>
     <div class="container">
         <h2>ECTS Course Calculator</h2>
+        <p style="font-size: 12px; text-align: center;">Made by Sourin</p>
         <form id="ectsForm">
-            <label for="CP_course">Credit Points (CP) for the course:</label>
-            <input type="number" id="CP_course" name="CP_course" required>
+            <label for="ects_type">Select ECTS Type:</label>
+            <select id="ects_type" name="ects_type" required>
+                <option value="degree">Degree ECTS</option>
+                <option value="subject_specific">Subject Specific ECTS</option>
+            </select>
+            <div id="subject_specific_field" style="display: none;">
+                <label for="subject_name">Subject Name:</label>
+                <input type="text" id="subject_name" name="subject_name">
+            </div>
+            <label for="CP_acquired">Credit Points (CP) acquired:</label>
+            <input type="number" id="CP_acquired" name="CP_acquired" required>
             <label for="years_of_degree">Years in the degree program:</label>
             <input type="number" id="years_of_degree" name="years_of_degree" required>
-            <label for="total_credits_of_degree">Total credits required for the degree:</label>
+            <label for="total_credits_of_degree">Total Credit Points (CP) required to get the degree:</label>
             <input type="number" id="total_credits_of_degree" name="total_credits_of_degree" required>
             <button type="submit">Calculate ECTS</button>
         </form>
