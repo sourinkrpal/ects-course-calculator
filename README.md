@@ -4,7 +4,7 @@ This is a simple web-based tool for calculating the European Credit Transfer and
 
 ## Usage
 
-1. Open the [ECTS Course Calculator](https://username.github.io/repositoryname) in your web browser.
+1. Open the [ECTS Course Calculator](https://sourinkrpal.github.io/ects-course-calculator/) in your web browser.
 2. Enter the following information:
    - Credit Points (CP) for the course
    - Years in the degree program
@@ -20,6 +20,6 @@ This is a simple web-based tool for calculating the European Credit Transfer and
 
 ## Author
 
-- [Your Name](https://github.com/yourusername)
+- [Sourin](https://github.com/sourinkrpal)
 
 Feel free to contribute to this project by submitting pull requests or reporting issues.
