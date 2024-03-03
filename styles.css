@@ -19,11 +19,11 @@ body {
 
 h2 {
     text-align: center;
-    color: #007bff; /* Change the color to blue */
-    font-family: 'Arial', sans-serif; /* Change the font family to Arial or any professional font */
-    font-size: 28px; /* You can adjust the font size as needed */
-    font-weight: bold; /* Add bold font weight for emphasis */
-    margin-bottom: 20px; /* Increase bottom margin for spacing */
+    color: #007bff;
+    font-family: 'Arial', sans-serif;
+    font-size: 28px;
+    font-weight: bold;
+    margin-bottom: 20px;
 }
 
 form {
@@ -71,8 +71,6 @@ button:hover {
     color: #007bff;
     font-family: 'Montserrat', sans-serif;
 }
-
-/* Additional styling for new elements */
 
 #subject_specific_field {
     display: none;
