@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ECTS Course Calculator</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <h2>ECTS Course Calculator</h2>
+        <form id="ectsForm">
+            <label for="CP_course">Credit Points (CP) for the course:</label>
+            <input type="number" id="CP_course" name="CP_course" required>
+            <label for="years_of_degree">Years in the degree program:</label>
+            <input type="number" id="years_of_degree" name="years_of_degree" required>
+            <label for="total_credits_of_degree">Total credits required for the degree:</label>
+            <input type="number" id="total_credits_of_degree" name="total_credits_of_degree" required>
+            <button type="submit">Calculate ECTS</button>
+        </form>
+        <div id="result"></div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
